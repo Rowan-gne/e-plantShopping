@@ -3,9 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { removeItem, updateQuantity } from './CartSlice';
 import { useDispatch } from "react-redux";
 import { updateQuantity, removeItem } from "./CartSlice";
-import { addItem } from "./CartSlice";
-import { configureStore } from '@reduxjs/toolkit';
-import cartReducer from './CartSlice';
+
 
 import './CartItem.css';
 const dispatch = useDispatch();
